@@ -1,0 +1,109 @@
+import { Briefcase, Code, User } from "lucide-react";
+
+export const AboutSection = () => {
+  return (
+    <section id="about" className="py-24 px-4 relative">
+      <div className="container mx-auto max-w-5xl">
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+          About <span className="text-primary"> Me</span>
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          {/* LEFT CONTENT */}
+          <div className="space-y-6">
+            <h3 className="text-2xl font-semibold">
+              Aspiring Software Developer & Full Stack Engineer
+            </h3>
+
+            <p className="text-muted-foreground">
+              I am a Computer Science Engineering undergraduate at Chandigarh
+              University with a strong foundation in software development, data
+              structures, and problem solving. I enjoy building scalable and
+              user-focused web applications using modern technologies.
+            </p>
+
+            <p className="text-muted-foreground">
+              I have hands-on experience developing full-stack projects using
+              React, Node.js, Express, MongoDB, and MySQL. I am passionate about
+              learning new technologies and applying them to solve real-world
+              problems efficiently.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+              <a href="#contact" className="cosmic-button">
+                Get In Touch
+              </a>
+
+              <a
+                href="https://drive.google.com/uc?export=download&id=1g4Z4s1QKhh1_FKzpjDXOt3F_aoYT7meF"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              >
+                Download Resume
+              </a>
+            </div>
+          </div>
+
+          {/* RIGHT CARDS */}
+          <div className="grid grid-cols-1 gap-6">
+            {/* CARD 1 */}
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Code className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">
+                    Full Stack Web Development
+                  </h4>
+                  <p className="text-muted-foreground">
+                    Building responsive and scalable web applications using
+                    React, Node.js, Express, MongoDB, and REST APIs.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* CARD 2 */}
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <User className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">
+                    Problem Solving & DSA
+                  </h4>
+                  <p className="text-muted-foreground">
+                    Strong understanding of data structures, algorithms, and
+                    object-oriented programming for efficient problem solving.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* CARD 3 */}
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Briefcase className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">
+                    Project-Based Learning
+                  </h4>
+                  <p className="text-muted-foreground">
+                    Experience working on real-world projects like AI-powered
+                    Resume Builder, Grocery Delivery App, and LMS systems.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* END RIGHT */}
+        </div>
+      </div>
+    </section>
+  );
+};
