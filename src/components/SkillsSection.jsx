@@ -3,33 +3,33 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Programming Languages
-  { name: "C++", level: 85, category: "languages" },
-  { name: "Java", level: 80, category: "languages" },
-  { name: "Python", level: 75, category: "languages" },
-  { name: "JavaScript", level: 85, category: "languages" },
+  { name: "C++", level: 78, category: "languages" },
+  { name: "Java", level: 75, category: "languages" },
+  { name: "Python", level: 70, category: "languages" },
+  { name: "JavaScript", level: 80, category: "languages" },
 
   // Frontend
-  { name: "HTML", level: 90, category: "frontend" },
-  { name: "CSS", level: 85, category: "frontend" },
-  { name: "React.js", level: 85, category: "frontend" },
-  { name: "Tailwind CSS", level: 80, category: "frontend" },
+  { name: "HTML", level: 80, category: "frontend" },
+  { name: "CSS", level: 76, category: "frontend" },
+  { name: "React.js", level: 79, category: "frontend" },
+  { name: "Tailwind CSS", level: 74, category: "frontend" },
 
   // Backend
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express.js", level: 75, category: "backend" },
+  { name: "Node.js", level: 73, category: "backend" },
+  { name: "Express.js", level: 68, category: "backend" },
 
   // Database
-  { name: "MongoDB", level: 75, category: "database" },
-  { name: "MySQL", level: 70, category: "database" },
+  { name: "MongoDB", level: 72, category: "database" },
+  { name: "MySQL", level: 65, category: "database" },
 
   // Core CS
   { name: "Data Structures & Algorithms", level: 80, category: "core" },
-  { name: "Object-Oriented Programming", level: 85, category: "core" },
+  { name: "Object-Oriented Programming", level: 77, category: "core" },
 
   // Tools
-  { name: "Git", level: 85, category: "tools" },
-  { name: "GitHub", level: 85, category: "tools" },
-  { name: "VS Code", level: 90, category: "tools" },
+  { name: "Git", level: 79, category: "tools" },
+  { name: "GitHub", level: 76, category: "tools" },
+  { name: "VS Code", level: 80, category: "tools" },
 ];
 
 const categories = [
